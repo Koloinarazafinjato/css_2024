@@ -78,5 +78,5 @@ print('Most common actor in all the movies:', most_common_actor)
 #Number of unique genres in the dataset
 genre = df['Genre'].str.split(r',\s*').explode()
 # Get unique genres
-unique_genre = genre.unique()
-print('Number of unique genres in the dataset:', len(unique_genre))
+unique_genre = genre.value_counts().count()
+print('Number of unique genres in the dataset:', unique_genre)
