@@ -1,5 +1,5 @@
 # CSS-D Project: IMBD Data
-## Exploratory analysis of a large movie dataset using pandas for performance insights.
+### Exploratory analysis of a large movie dataset using pandas for performance insights.
 
 ## Introduction
 This project applies data cleaning, transformation, and exploratory analysis techniques on a movie dataset to extract key aspects of performance, including ratings, revenue, director contributions, and trends over time. It also provides insights into the actors and genres involved.
